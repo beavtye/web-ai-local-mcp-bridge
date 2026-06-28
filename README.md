@@ -8,7 +8,7 @@ English summary: A Windows-first template for connecting web ChatGPT, Gemini, De
 
 - ChatGPT 网页端通过 DevSpace Local / MCP 访问本地工作区。
 - Gemini、DeepSeek 等网页端通过 MCP SuperAssistant 访问本地文件。
-- 可选：用一个终端中控网页 GPT / Gemini 对话。
+- 可选：用一个终端中控网页 GPT / Gemini / DeepSeek / Zhipu 等网页模型，并组织成 agent 工作流。
 
 本仓库只提供通用模板，不包含任何个人路径、账号、域名、token 或本地数据。
 
@@ -110,10 +110,10 @@ http://127.0.0.1:3006/sse
 - [ChatGPT + DevSpace](docs/chatgpt-devspace.md)
 - [Gemini / DeepSeek + MCP SuperAssistant](docs/gemini-mcp-superassistant.md)
 - [固定域名方案](docs/fixed-domain.md)
+- [终端 Agent 中控](docs/agent-console-workflows.md)
 - [排错](docs/troubleshooting.md)
 - [隐私检查清单](docs/privacy-checklist.md)
 
 ## License
 
 MIT
-
